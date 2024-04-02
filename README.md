@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-alertdialog
+npm install --save @ferracinitec/react-alertdialog
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-alertdialog
 ```tsx
 import React, { useState } from 'react'
 
-import { AlertDialog, AlertDialogProps } from 'react-alertdialog'
+import { AlertDialog, AlertDialogProps } from '@ferracinitec/react-alertdialog'
 import 'react-alertdialog/dist/index.css'
 
 const App = () => {
