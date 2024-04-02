@@ -1,8 +1,8 @@
-# react-bootstrap-alertdialog
+# react-alertdialog
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/react-bootstrap-alertdialog.svg)](https://www.npmjs.com/package/react-alertdialog) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-alertdialog.svg)](https://www.npmjs.com/package/react-alertdialog) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -15,8 +15,8 @@ npm install --save react-alertdialog
 ```tsx
 import React, { useState } from 'react'
 
-import { AlertDialog, AlertDialogProps } from 'react-bootstrap-alertdialog'
-import 'react-bootstrap-alertdialog/dist/index.css'
+import { AlertDialog, AlertDialogProps } from 'react-alertdialog'
+import 'react-alertdialog/dist/index.css'
 
 const App = () => {
 	const [text, setText] = useState<string>('Wait response...')

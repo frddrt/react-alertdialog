@@ -1,6 +1,6 @@
 {
-  "short_name": "react-bootstrap-alertdialog",
-  "name": "react-bootstrap-alertdialog",
+  "short_name": "react-alertdialog",
+  "name": "react-alertdialog",
   "icons": [
     {
       "src": "favicon.ico",

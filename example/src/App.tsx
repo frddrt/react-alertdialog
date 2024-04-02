@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import { AlertDialog, AlertDialogProps } from 'react-bootstrap-alertdialog'
-import 'react-bootstrap-alertdialog/dist/index.css'
+import { AlertDialog, AlertDialogProps } from 'react-alertdialog'
+import 'react-alertdialog/dist/index.css'
 
 const App = () => {
 	const [text, setText] = useState<string>('Wait response...')
