@@ -1,0 +1,63 @@
+.modalBackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(0, 0, 0, .4);
+	z-index: 99999;
+}
+
+.modalWindow {
+	background: white;
+	width: 40vw;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 10px 5px gray;
+	border-radius: 5px;
+}
+
+.modalTitle {
+	background: lightblue;
+	font-size: 1.8em;
+	padding: 0.4em 0.2em;
+	box-shadow: 2px 0 5px 1px gray;
+	border-radius: 5px 5px 0px 0px;
+	display: grid;
+	grid-template-columns: 2em 1fr 2em;
+}
+
+.modalBody {
+	padding: 1em;
+}
+
+.modalFooter {
+	padding: 0.7em 1em;
+	box-shadow: 0 2px 5px 1px gray;
+	text-align: right;
+}
+
+.modalDivClose {
+	position: fixed;
+	top: 0;
+	right: 0.2em;
+}
+
+.modalButton {
+	padding: 0.5em;
+	margin-left: 0.8em;
+	box-shadow: 3px 3px 5px 1px gray;
+	border-radius: 5px;
+	font-weight: 600;
+	background-color: lightblue;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+}
+
+.modalButton:active {
+	box-shadow: 0px 0px 0px 0px gray;
+	transform: translateX(3px, 3px);
+}
